@@ -7,7 +7,7 @@ pos=[]; pos.p=p; pos.pi=p; pos.P=P; pos.Pfp=P; pos.Pi=P; pos.rp=rp; pos.Q=Q;
 mov=[]; saveAvi=1;
 noOfParticles=5;
 
-for i=1:noOfParticels
+for i=1:noOfParticles
     prt(i).pos=pos; prt(i).fs=fs;
     prt(i).w=1; prt(i).phi=phi;
 end
