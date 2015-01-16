@@ -8,10 +8,6 @@ realPosition=[0;-15]; p=realPosition; phi=0; fs=[]; P=zeros(2,2); Q=eye(2)*0.2^2
 pos=[]; pos.p=p; pos.pi=p; pos.P=P; pos.Pfp=P; pos.Pi=P; pos.rp=realPosition; pos.Q=Q; 
 mov=[]; saveAvi=1;
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 467563d02e9f191bf3e76e94bf19e89161ed2f90
 for i=1:noOfParticles
     prt(i).pos=pos; prt(i).fs=fs;
     prt(i).w=1; prt(i).phi=phi;
